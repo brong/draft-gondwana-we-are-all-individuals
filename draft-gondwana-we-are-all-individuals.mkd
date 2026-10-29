@@ -1,0 +1,188 @@
+---
+title: We Are All Individuals
+abbrev: All Individuals
+docname: draft-gondwana-we-are-all-individuals-00
+submissionType: IETF
+category: bcp
+updates:
+obsoletes:
+ipr: trust200902
+keyword: Internet-Draft
+stand_alone: yes
+pi: [toc, sortrefs, symrefs]
+
+author:
+ -
+    ins: B. Gondwana
+    name: Bron Gondwana
+    org: Fastmail
+    email: brong@fastmailteam.com
+
+normative:
+  RFC2418:
+  RFC5378:
+  RFC8179:
+  RFC9281:
+
+informative:
+  RFC2026:
+  RFC6702:
+  RFC7154:
+  RFC7241:
+  RFC8718:
+  RFC9592:
+  RFC9680:
+  RFC9775:
+  NOTEWELL:
+    title: Note Well
+    target: https://www.ietf.org/about/note-well/
+    author:
+      org: IETF
+
+--- abstract
+
+Participation in the IETF is by individuals.  This document makes that
+principle concrete for an environment in which software agents can
+produce and submit text.  Each human has one Datatracker account.  Each
+Datatracker account belongs to one human who has acknowledged the Note
+Well.  Every IETF Contribution is vouched for by one human who is
+accountable for it.
+
+--- middle
+
+# Introduction
+
+The IETF has always said that its participants act as individuals.  The
+existing statements of this principle are collected in
+{{existing-principle}}.
+
+Those statements were written when every message to a mailing list and
+every Internet-Draft was typed by a person.  That is no longer a safe
+assumption.  Agents can now draft text, post to mailing lists, open
+issues, and submit documents, and can do so at a volume no person
+could.
+
+This document doesn't restrict the tools people use.  It states who is
+responsible for what those tools produce.
+
+# Conventions and Definitions
+
+{::boilerplate bcp14-tagged}
+
+This document uses "Contribution", "Contributor", and "Participant" as
+defined in {{RFC8179}} and {{RFC5378}}.
+
+Human:
+: A natural person.
+
+Account:
+: A Datatracker account, and the credentials associated with it.
+
+Agent:
+: Software that produces or submits text, or takes other actions,
+  on behalf of a human.
+
+# Requirements
+
+## One Account per Human
+
+Each human participating in the IETF MUST have no more than one
+Datatracker account.
+
+A human MAY associate multiple email addresses with their account.
+Using different addresses for different affiliations, or for personal
+and work use, is common and expected.
+
+## One Human per Account
+
+Each Datatracker account MUST belong to exactly one human.  That human
+MUST have acknowledged the Note Well {{NOTEWELL}}.
+
+An account MUST NOT be shared between people, and MUST NOT be operated
+by an organization or a role in place of a named human.
+
+## Every Contribution Has an Accountable Human
+
+Every Contribution MUST be vouched for by one human, who is accountable
+for it as its Contributor.
+
+That human MAY use any tools, including agents, to prepare or submit
+the Contribution.  The obligations that apply to a Contributor, including
+IPR disclosure under {{RFC8179}} and conduct under {{RFC7154}}, apply to
+the human who vouches for it.  They apply in the same way whether the
+human typed the text or an agent produced it.
+
+# Existing Principle {#existing-principle}
+
+The following documents state that participation in the IETF is by
+individuals.
+
+{{Section 3.2 of RFC9281}} (BCP 11):
+
+> For all purposes relevant to the Internet Standards development
+> process, membership in the IETF and its WGs is defined to be
+> established solely and entirely by individuals who participate in
+> IETF and WG activities.  These individuals do not formally represent
+> any organizations they may be affiliated with, although affiliations
+> are often used for identification.
+
+{{Section 1 of RFC2418}} (BCP 25):
+
+> There is no formal membership in the IETF.  Participation is open to
+> all. \[...\] Participation is by individual technical contributors,
+> rather than by formal representatives of organizations.
+
+{{Section 5 of RFC8179}} (BCP 79):
+
+> This document refers to the IETF Participant making disclosures,
+> consistent with the general IETF philosophy that Participants in the
+> IETF act as individuals.
+
+{{Section 1 of RFC8179}} defines a "Contributor" as "an individual
+submitting a Contribution", and a "Participant" as "any individual
+Participating in an IETF discussion or activity".  {{Section 1 of
+RFC5378}} (BCP 78) uses the same definition of "Contributor".
+
+{{Section 2.2 of RFC7241}}:
+
+> All IETF participants act as individuals.  There is no concept of
+> "IETF membership".
+
+{{Section 4.1 of RFC9680}}:
+
+> While IETF participants are expected to participate as individuals,
+> their actions could still be construed as representing their
+> employer, whatever their role.
+
+{{Section 2.1 of RFC8718}}:
+
+> Meeting attendees participate as individuals.
+
+{{Appendix A.1 of RFC6702}} describes the IPR obligations as "personal
+requirements applying to all IETF participants as individuals".
+
+{{Section 5 of RFC2026}} notes that the IAB and IESG "are composed of
+individuals who may participate, as individuals, in the technical work
+of the IETF".
+
+The final version of the Tao of the IETF, archived in {{RFC9592}}, says
+"There is no membership in the IETF."
+
+The IRTF's code of conduct {{RFC9775}} says a generative tool must not
+be listed as an author of a document, and that significant amounts of
+AI-generated content must be disclosed.
+
+# Security Considerations
+
+TODO
+
+# IANA Considerations
+
+This document has no IANA actions.
+
+--- back
+
+# Acknowledgments
+{:numbered="false"}
+
+TODO
