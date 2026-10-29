@@ -27,12 +27,15 @@ normative:
 informative:
   RFC2026:
   RFC6702:
+  RFC6973:
   RFC7154:
   RFC7241:
+  RFC8280:
   RFC8718:
   RFC9592:
   RFC9680:
   RFC9775:
+  RFC9945:
   NOTEWELL:
     title: Note Well
     target: https://www.ietf.org/about/note-well/
@@ -43,10 +46,11 @@ informative:
 
 Participation in the IETF is by individuals.  This document makes that
 principle concrete for an environment in which software agents can
-produce and submit text.  Each human has one Datatracker account.  Each
-Datatracker account belongs to one human who has acknowledged the Note
-Well.  Every IETF Contribution is vouched for by one human who is
-accountable for it.
+produce and submit text.  Each Datatracker account belongs to one
+human who has acknowledged the Note Well.  Every IETF Contribution is
+vouched for by one human who is accountable for it.  Anonymous
+Contributions are not accepted, and no human may use more than one
+identity in the same piece of work.
 
 --- middle
 
@@ -86,14 +90,16 @@ Agent:
 
 ## One Account per Human
 
-Each human participating in the IETF MUST have no more than one
-Datatracker account.
+Each human participating in the IETF SHOULD have one Datatracker
+account.  {{multiple-identities}} describes the limited case in which a
+human holds more than one.
 
 A human MAY associate multiple email addresses with their account.
 Using different addresses for different affiliations, or for personal
-and work use, is common and expected.
+and work use, is common and expected.  Addresses on one account are
+linked, and the IETF treats them as one participant.
 
-## One Human per Account
+## One Human per Account {#one-human-per-account}
 
 Each Datatracker account MUST belong to exactly one human.  That human
 MUST have acknowledged the Note Well {{NOTEWELL}}.
@@ -111,6 +117,95 @@ the Contribution.  The obligations that apply to a Contributor, including
 IPR disclosure under {{RFC8179}} and conduct under {{RFC7154}}, apply to
 the human who vouches for it.  They apply in the same way whether the
 human typed the text or an agent produced it.
+
+# Anonymity {#anonymity}
+
+This document uses "anonymous" and "pseudonym" as defined in
+{{Section 3.3 of RFC6973}}.
+
+Anonymity has real value.  People use it to take part in political
+life where speaking under their own name would put them, their
+families, or their jobs at risk.  {{RFC8280}} treats anonymity as a
+human rights consideration in protocol design for these reasons.
+
+Anonymous participation is still incompatible with the IETF standards
+process.  The process depends on knowing which human made each
+Contribution:
+
+* A Contributor grants rights in their Contribution and makes
+  representations about it ({{Section 5 of RFC5378}}).  A grant or a
+  representation from nobody in particular is worth nothing.
+
+* IPR disclosure obligations attach to IPR that the Contributor
+  "reasonably and personally" knows of, including IPR held by their
+  employer or sponsor ({{Section 5.6 of RFC8179}}).  Nobody can tell
+  whether that obligation has been met without knowing who the
+  Contributor is.
+
+* Rough consensus is judged by chairs who read the discussion.  If one
+  human can appear as several participants, the chairs can't tell how
+  much support or opposition there really is.
+
+* The guidelines for conduct {{RFC7154}} and the moderation processes
+  {{RFC9945}} act on people.  A sanction that can be escaped by
+  creating a new account has no effect.
+
+* Affiliations "are often used for identification" ({{Section 3.2 of
+  RFC9281}}).  Readers weigh an argument partly by knowing who is
+  making it and what interests they may have.
+
+Every Contribution MUST therefore be attributable to an identified
+human, as required by {{one-human-per-account}}.  The IETF does not
+accept anonymous Contributions.
+
+# Multiple Identities {#multiple-identities}
+
+A human may want to take part in the IETF under an identity that is not
+publicly linked to their existing account.  Reasons include changing
+employers, working in an area that is sensitive for their employer or
+government, or separating personal and professional work.
+
+A human MAY hold more than one account, each used for a different
+piece of work, without publicly linking them.  Each account is still
+subject to every requirement in this document: it belongs to one
+identified human who has acknowledged the Note Well, and that human is
+accountable for every Contribution made from it.
+
+A human MUST NOT use more than one identity to contribute to the same
+piece of work.  For the purposes of this document, a "piece of work"
+includes at least:
+
+* an Internet-Draft and any later document derived from it;
+
+* any discussion, issue, review, or consensus call about such a
+  document; and
+
+* any nomination, petition, or other process in which participants
+  are counted.
+
+A human MUST NOT create a new account to avoid a sanction applied to
+an existing one, or to avoid the history attached to it.
+
+# Open Questions
+
+This document is a starting point for discussion.  These questions are
+expected to be debated.
+
+* Is a working group the right scope for a "piece of work", or is a
+  single document enough?  Working group scope is easier to check, but
+  it may exclude people who have good reasons to keep two lines of
+  work apart.
+
+* Should an account with no public link to a human's other accounts
+  still be linked privately, for example by disclosure to the IETF
+  Secretariat or the Ombudsteam?  That would allow enforcement of
+  {{multiple-identities}} without exposing the link publicly.
+
+* Is a pseudonym acceptable on a single account, if the human behind it
+  is known to the IETF and accountable in the same way as anyone else?
+
+* How should the IETF verify that an account belongs to one human,
+  and how much verification is proportionate?
 
 # Existing Principle {#existing-principle}
 
