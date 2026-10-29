@@ -178,6 +178,16 @@ themselves.  Nothing in this document anticipates or requires a login
 to read the IETF's work.  A reader can stay anonymous.  A contributor
 can't.
 
+The IETF already draws this line for meetings.  Attending a session has
+long been recorded: the blue sheets were "paper forms on which everyone
+writes their name and their affiliation", and for remote attendance
+"attendance is handled by accessing the application" ({{RFC9592}}).
+Today, entering a session means logging in to Meetecho, and attendance
+lists are part of the public record ({{Section 1 of RFC3935}}).  The
+minutes, materials, and recordings of those sessions are published for
+anyone to read without logging in.  This document applies the same
+split to every other way of taking part.
+
 # Multiple Identities {#multiple-identities}
 
 A human may want to take part in the IETF under an identity that is not
