@@ -26,6 +26,7 @@ normative:
 
 informative:
   RFC2026:
+  RFC3935:
   RFC6702:
   RFC6973:
   RFC7154:
@@ -50,7 +51,8 @@ produce and submit text.  Each Datatracker account belongs to one
 human who has acknowledged the Note Well.  Every IETF Contribution is
 vouched for by one human who is accountable for it.  Anonymous
 Contributions are not accepted, and no human may use more than one
-identity in the same piece of work.
+identity in the same piece of work.  Reading the IETF's work remains
+open to everyone, with no account or identification required.
 
 --- middle
 
@@ -157,6 +159,24 @@ Contribution:
 Every Contribution MUST therefore be attributable to an identified
 human, as required by {{one-human-per-account}}.  The IETF does not
 accept anonymous Contributions.
+
+## Reading Requires No Identity
+
+The requirements in this document apply to contributing.  They do not
+apply to reading.
+
+The IETF's mission commits it to "making our documents, our WG mailing
+lists, our attendance lists, and our meeting minutes publicly available
+on the Internet" ({{Section 1 of RFC3935}}), and the standards process
+requires a "publicly accessible record" of its activities
+({{Section 8 of RFC2026}}).
+
+Anyone MUST be able to read Internet-Drafts, RFCs, mailing list
+archives, issue trackers, meeting materials, minutes, and recordings
+without an account, without logging in, and without identifying
+themselves.  Nothing in this document anticipates or requires a login
+to read the IETF's work.  A reader can stay anonymous.  A contributor
+can't.
 
 # Multiple Identities {#multiple-identities}
 
