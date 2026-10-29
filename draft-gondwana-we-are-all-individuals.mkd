@@ -214,7 +214,8 @@ includes at least:
   are counted.
 
 A human MUST NOT create a new account to avoid a sanction applied to
-an existing one, or to avoid the history attached to it.
+an existing one, or to avoid the history attached to it on an existing
+topic.
 
 # Open Questions
 
