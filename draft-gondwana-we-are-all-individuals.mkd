@@ -43,6 +43,11 @@ informative:
   I-D.moonesamy-authorship-ietf:
   I-D.ietf-procon-2418bis:
   I-D.ietf-procon-2026bis:
+  MEETING-TERMS:
+    title: IETF Meeting Terms and Conditions
+    target: https://www.ietf.org/meeting/terms-and-conditions/
+    author:
+      org: IETF
   NOTEWELL:
     title: Note Well
     target: https://www.ietf.org/about/note-well/
@@ -52,10 +57,10 @@ informative:
 --- abstract
 
 Participation in the IETF is by individuals.  This document applies
-that principle now that software agents can write and submit text.
-Each identity belongs to one human, and every Contribution has at least
-one accountable human.  Anonymous Contributions are not accepted, and
-no human may use two identities in the same piece of work.  Reading the
+that principle now that software Agents can write and submit text.
+Each Identity belongs to one Human, and every Contribution has at least
+one accountable Human.  Anonymous Contributions are not accepted, and
+no Human may use two Identities in the same piece of work.  Reading the
 IETF's work requires no account or identification.  Rough consensus is
 unchanged.
 
@@ -63,27 +68,27 @@ unchanged.
 
 # Introduction
 
-The IETF has always said that its participants act as individuals
+The IETF has always said that its Participants act as individuals
 ({{existing-principle}}).  Those statements assumed that a person typed
 every message and every draft.  Agents can now draft text, post to
-mailing lists, open issues, and submit documents, at a volume no person
-could.
+mailing lists, open issues, and submit documents. This can be done
+at a volume no person could, and without Human supervision.
 
 This document doesn't restrict the tools people use.  It says who is
 responsible for what they produce.
 
 ## Out of Scope {#out-of-scope}
 
-This document covers the link between a human and their identities.
-It does not cover coordination between separate humans, such as
+This document covers the link between a Human and their Identities.
+It does not cover coordination between separate Humans, such as
 "meatpuppets" recruited or directed to support a position, or the
-relationships between humans and their employers, sponsors, or other
+relationships between Humans and their employers, sponsors, or other
 affiliations.
 
-Rough consensus is not determined by counting participants
+Rough consensus is not determined by counting Participants
 {{RFC7282}}.  Chairs and the IESG must still apply judgement, including
-to participation that appears coordinated.  This document changes
-neither.
+to participation that appears coordinated.  This document does
+not alter this responsibility.
 
 # Conventions and Definitions
 
@@ -96,47 +101,56 @@ Human:
 : A natural person.
 
 Identity:
-: The name a human participates under, with the email addresses and
+: The name a Human participates under, with the email addresses and
   accounts they use, such as a Datatracker account, a mailing list
   subscription, or a code repository account.
 
 Agent:
-: Software that acts on behalf of a human, including by producing or
+: Software that acts on behalf of a Human, including by producing or
   submitting text.
 
 # Requirements
 
-No Datatracker account is required.  Taking part only by email remains
-sufficient.
+People can participate in the IETF via email, through the Datatracker,
+at in-person meetings, or through other issue trackers.  The only
+requirement is that they be a Human, and are aware of their obligations
+under the IETF's BCPs as enumerated in the Note Well {{NOTEWELL}}.
 
 ## One Identity per Human
 
-Each human SHOULD use one identity; {{multiple-identities}} covers the
-exception.  An identity MAY include several email addresses and
-accounts, for example for different affiliations or for personal and
-work use.  Together they are one participant.
+Each Human SHOULD use one Identity; {{multiple-identities}} covers
+reasons why they might choose not to.  An Identity MAY include several
+email addresses and accounts, for example for different affiliations or
+for personal and work use.  Together they are one Participant.
 
 ## One Human per Identity {#one-human-per-identity}
 
-Each identity MUST belong to exactly one human, who is bound by the
-Note Well {{NOTEWELL}} like every participant.  An identity MUST NOT be
+Each Identity MUST belong to exactly one Human, who is bound by the
+Note Well {{NOTEWELL}} like every Participant.  An Identity MUST NOT be
 shared.
 
 An organization or role, such as a working group's chairs or the IETF
 Secretariat, may act through its own address or account.  It MUST have
-one or more accountable humans, who need not be publicly named.  Each
-is accountable as if they had acted under their own identity.  Such an
-address is not an identity and is not counted as a participant.
+one or more accountable Humans.  Each is accountable as if they had acted
+under their own Identity.  Such an address is not an Identity and is not
+counted as a Participant.
+
+## Names {#names}
+
+A Human MAY participate under a name other than their real name, such
+as a pen name or a nickname.  They MUST be willing to give their real
+name to the IETF when asked.  Registering for an IETF meeting, in
+person or remote, already requires a real name {{MEETING-TERMS}}.
 
 ## Every Contribution Has an Accountable Human
 
-Every Contribution MUST be vouched for by at least one human, who is
+Every Contribution MUST be vouched for by at least one Human, who is
 accountable for it as a Contributor.  They MAY use any tools, including
-agents.  Contributor obligations, including IPR disclosure {{RFC8179}}
-and conduct {{RFC7154}}, apply whether the human typed the text or an
-agent produced it.
+Agents.  Contributor obligations, including IPR disclosure {{RFC8179}}
+and conduct {{RFC7154}}, apply whether the Human typed the text or an
+Agent produced it.
 
-Nobody has to say which tools they used, though it is polite to,
+Nobody has to declare which tools they used, though it is polite to,
 except where the IPR rules {{RFC5378}} {{RFC8179}} require disclosure.
 
 ## Co-authored Contributions
@@ -145,8 +159,8 @@ When a Contribution has several authors, such as an Internet-Draft or
 a joint review, each author is a Contributor and fully accountable for
 it.  Obligations are not divided between them.
 
-Each author MUST be a separate human.  An agent MUST NOT be listed as
-an author, and a human MUST NOT list another of their own identities
+Each author MUST be a separate Human.  An Agent MUST NOT be listed as
+an author, and a Human MUST NOT list another of their own Identities
 as a co-author.
 
 # Anonymity {#anonymity}
@@ -169,20 +183,22 @@ Contribution:
   ({{Section 5.6 of RFC8179}}).  Nobody can check that without knowing
   who the Contributor is.
 
-* A human who takes part in the same discussion under several
-  undisclosed identities is deliberately misleading the chairs and
-  other participants.  There are other ways to mislead; this document
+* A Human who takes part in the same discussion under several
+  undisclosed Identities is deliberately misleading the chairs and
+  other Participants.  There are other ways to mislead; this document
   addresses only this one.
 
 * Conduct guidelines {{RFC7154}} and moderation {{RFC9945}} act on
-  people.  A remedy escaped by creating a new identity has no effect.
+  people.  A remedy escaped by creating a new Identity has no effect.
 
 * Affiliations "are often used for identification"
   ({{Section 3.2 of RFC9281}}).  Readers weigh an argument partly by
   who is making it.
 
 Every Contribution MUST therefore be attributable to an identified
-human.  The IETF does not accept anonymous Contributions.
+Human.  The IETF does not accept anonymous Contributions.  A pseudonym
+is acceptable, provided the Human behind it will give their real name
+when asked ({{names}}).
 
 ## Reading Requires No Identity
 
@@ -194,7 +210,7 @@ minutes publicly available ({{Section 1 of RFC3935}}), and keeps a
 Anyone MUST be able to read Internet-Drafts, RFCs, mailing list
 archives, issue trackers, meeting materials, minutes, and recordings
 without an account, a login, or identifying themselves.  A reader can
-stay anonymous.  A contributor can't.
+stay anonymous.  A Contributor can't.
 
 Meetings already draw this line.  Attendance has long been recorded,
 first on paper blue sheets and now by logging in to Meetecho
@@ -204,12 +220,12 @@ split everywhere.
 
 # Multiple Identities {#multiple-identities}
 
-A human MAY use more than one identity without publicly linking them,
+A Human MAY use more than one Identity without publicly linking them,
 for example to work in an area that is sensitive for their employer or
 government, or to separate personal and professional work.  Each
-identity is subject to every requirement in this document.
+Identity is subject to every requirement in this document.
 
-A human MUST NOT use more than one identity in the same piece of work,
+A Human MUST NOT use more than one Identity in the same piece of work,
 which includes at least:
 
 * an Internet-Draft, any document derived from it, and any discussion,
@@ -217,16 +233,16 @@ which includes at least:
 
 * a working group charter or BoF, and any discussion about either; and
 
-* any nomination, petition, or other process in which participants
+* any nomination, petition, or other process in which Participants
   are counted.
 
-A human MUST NOT create a new identity to escape a remedy, or their
+A Human MUST NOT create a new Identity to escape a remedy, or their
 history on an existing topic.
 
 # Enforcement {#enforcement}
 
 Breaches are handled through the moderation processes in {{RFC9945}}.
-Remedies apply to the human, and so to all of their identities.
+Remedies apply to the Human, and so to all of their Identities.
 
 # Open Questions
 
@@ -236,17 +252,17 @@ This document is a starting point.  These questions are open:
   group?  Working group scope is easier to check, but constrains people
   with good reasons to keep lines of work apart.
 
-* Should unlinked identities be linked privately, for example to the
+* Should unlinked Identities be linked privately, for example to the
   IETF Secretariat or the Ombudsteam, so that {{multiple-identities}}
   can be enforced without public exposure?
 
-* Is a pseudonymous identity acceptable if the human behind it is known
-  to the IETF and equally accountable?
+* When can a Human be asked for their real name, who can ask, and who
+  can see it once given?
 
 * Without a Datatracker account, what ties an email address to an
-  identity?
+  Identity?
 
-* How should the IETF verify that an identity belongs to one human,
+* How should the IETF verify that an Identity belongs to one Human,
   and how much verification is proportionate?
 
 # Existing Principle {#existing-principle}
@@ -314,26 +330,26 @@ AI-generated content must be disclosed.
 Denial of service:
 : Agents can produce Contributions faster than people can read them.
   This document doesn't limit volume, but every Contribution has an
-  accountable human that moderation {{RFC9945}} can act on, and all of
-  a human's identities count as one.
+  accountable Human that moderation {{RFC9945}} can act on, and all of
+  a Human's Identities count as one.
 
 False identification:
-: A claim that two identities are the same person can be used to
+: A claim that two Identities are the same person can be used to
   discredit someone or discount their support.  Such a finding needs
   evidence and a chance to respond.  If it is wrong, it and any remedy
   based on it must be withdrawn.
 
 Credential compromise:
-: Contributions made by someone who has taken over a human's address
-  or account were not vouched for by that human, who should report the
+: Contributions made by someone who has taken over a Human's address
+  or account were not vouched for by that Human, who should report the
   compromise promptly.  A claim of compromise can also be false, made to
   disown a Contribution, and is judged on its evidence.  Credentials
-  given to an agent are not compromised: the human is accountable for
-  what the agent does.
+  given to an Agent are not compromised: the Human is accountable for
+  what the Agent does.
 
 Privacy:
-: A link between identities, or between an identity and an
-  affiliation, can expose a human to the risks in {{anonymity}}.  Any
+: A link between Identities, or between an Identity and an
+  affiliation, can expose a Human to the risks in {{anonymity}}.  Any
   private record of such links is sensitive, and access to it should be
   limited to those enforcing this document.
 
@@ -373,4 +389,4 @@ published first.
 {:numbered="false"}
 
 Thanks to Martin Thomson for raising co-authored Contributions and
-whether an agent could be a co-author.
+whether an Agent could be a co-author.
