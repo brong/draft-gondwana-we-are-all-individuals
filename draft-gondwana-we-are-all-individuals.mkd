@@ -83,7 +83,8 @@ This document covers the link between a Human and their Identities.
 It does not cover coordination between separate Humans, such as
 "meatpuppets" recruited or directed to support a position, or the
 relationships between Humans and their employers, sponsors, or other
-affiliations.
+affiliations.  The exception is IPR disclosure for ideas a
+Contributor takes from others ({{ideas-from-others}}).
 
 Rough consensus is not determined by counting Participants
 {{RFC7282}}.  Chairs and the IESG must still apply judgement, including
@@ -199,6 +200,24 @@ Every Contribution MUST therefore be attributable to an identified
 Human.  The IETF does not accept anonymous Contributions.  A pseudonym
 is acceptable, provided the Human behind it will give their real name
 when asked ({{names}}).
+
+## Ideas from Others {#ideas-from-others}
+
+Contributions often carry ideas from people who are not Participants,
+such as colleagues who discussed a draft with its author.  The
+Contributor need not name them.  The Contributor is accountable for
+the whole Contribution as if every idea in it were their own.  This
+is not an anonymous Contribution, because an identified Human has
+taken responsibility for it.
+
+That accountability includes IPR.  A Contributor SHOULD ask the people
+whose ideas they bring into a Contribution whether they know of IPR
+that Covers those ideas.  What they learn is then IPR they personally
+know of, which they MUST disclose {{RFC8179}}.  Bringing ideas in
+through someone else, so that the person who knows of IPR never
+Participates and the person who Participates never learns of it, is a
+violation of IETF IPR policy, just as failing to disclose is
+({{Section 6 of RFC8179}}).
 
 ## Reading Requires No Identity
 
